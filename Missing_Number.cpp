@@ -23,4 +23,4 @@ int main(){
 
 // explanation 
 // we know sum of n number is Sn = n(n+1)/2
-// so missing number should be Sn - sum of given number 
+// so missing number should be | Sn - sum of given number |

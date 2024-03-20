@@ -9,6 +9,18 @@ typedef vector<int> v32;
 
 int main(){
     speed_cin();
-    //code here 
+    ll num;
+    cin>>num;
+    ll sum = 0,a;
+    forn(0,num-1) {
+        cin>>a;
+        sum+=a;
+    }
+    cout<< (num*(num+1))/2 - sum;
     return 0;
 }
+
+
+// explanation 
+// we know sum of n number is Sn = n(n+1)/2
+// so missing number should be Sn - sum of given number 

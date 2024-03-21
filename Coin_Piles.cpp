@@ -26,11 +26,11 @@ int main()
         // piles are empty
         if (a == 0 && b == 0)
             ans = "YES";
-        else if (a == 0 || b == 0)  // if any one pile is empty
+        else if (a == 0 || b == 0) // if any one pile is empty
             ans = "NO";
-        else if (a >= (a + b) / 3 && b >= (a + b) / 3)  // each pile should be greater than 1/3(2+1) of the total
+        else if (a >= (a + b) / 3 && b >= (a + b) / 3) // each pile should be greater than 1/3(2+1) of the total
         {
-            if ((a + b) % 3 == 0)  // it should be divisible / 3 (2+1)
+            if ((a + b) % 3 == 0) // it should be divisible / 3 (2+1)
                 ans = "YES";
             else
                 ans = "NO";
@@ -42,8 +42,7 @@ int main()
     return 0;
 }
 
-
-// Explantion 
+// Explantion
 
 // if coin pile have to be empty then the total should be divisible by (2+1)
-// and both pile should have more than 1/3 of the total 
+// and both pile should have more than 1/3 of the total

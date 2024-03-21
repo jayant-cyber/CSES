@@ -40,4 +40,4 @@ int main()
 
 // In both cases, the result is taken modulo `MOD` to ensure that the result remains within the range of the modulo operation.
 
-// By using recursion and the exponentiation by squaring technique, this function efficiently calculates \( x^n \) modulo `MOD`. It reduces the number of multiplications required by dividing the exponent by 2 in each recursive call. This results in a time complexity of O(log n).
+// By using recursion and the exponentiation by squaring technique, this function efficiently calculates x^n modulo `MOD`. It reduces the number of multiplications required by dividing the exponent by 2 in each recursive call. This results in a time complexity of O(log n).

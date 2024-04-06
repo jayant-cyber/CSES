@@ -20,7 +20,6 @@ int main()
     cin>>n;
     for (int i = 5; n / i >= 1; i *= 5)
         count += n / i;
- 
     cout<< count;
     return 0;
 }
